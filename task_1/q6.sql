@@ -1,0 +1,3 @@
+select BookingCustomerEmailAddress, sum(RevenueAmount) as TotalRevenue
+from airline_bookings
+group by BookingCustomerEmailAddress

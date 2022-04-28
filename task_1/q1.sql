@@ -1,0 +1,3 @@
+SELECT BookingCustomerEmailAddress, COUNT(DISTINCT BookingID) as TotalBookings
+FROM airline_bookings
+GROUP BY BookingCustomerEmailAddress
